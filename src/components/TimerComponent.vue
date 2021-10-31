@@ -7,7 +7,7 @@
 <script>
     import moment from "moment"
     export default {
-        props:['timerstamp'],
+        props:{'timerstamp':Object},
         data() {
             return {
                 timeAgo:''

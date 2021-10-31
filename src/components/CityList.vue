@@ -42,10 +42,6 @@
         props: {
             cities: {Array}
         },
-        data() {
-            return {
-                }
-            },
         methods: {
             handleRemove(city) {
                 this.$emit('handleRemove', city)
